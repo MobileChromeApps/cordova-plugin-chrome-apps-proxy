@@ -29,4 +29,17 @@
       </feature>
     </config-file>
   </platform>
+
+  <platform name="ios">
+    <header-file src="src/ios/ChromeProxy.h" />
+    <source-file src="src/ios/ChromeProxy.m" />
+    <header-file src="src/ios/ChromeProxyURLProtocol.h" />
+    <source-file src="src/ios/ChromeProxyURLProtocol.m" />
+
+    <config-file target="config.xml" parent="/*">
+      <feature name="ChromeProxy">
+        <param name="ios-package" value="ChromeProxy"/>
+      </feature>
+    </config-file>
+  </platform>
 </plugin>

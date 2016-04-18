@@ -5,7 +5,8 @@
   "cordova": {
     "id": "cordova-plugin-chrome-apps-proxy",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "repository": {
@@ -16,7 +17,8 @@
     "chrome",
     "proxy",
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-ios"
   ],
   "engines": [
     {
@@ -25,7 +27,7 @@
     }
   ],
   "author": "",
-  "license": "Apache 2.0",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-proxy/issues"
   },
