@@ -87,7 +87,7 @@ static NSDictionary *proxyDictionary;
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     }
-    [pluginResult setKeepCallback:@YES;
+    [pluginResult setKeepCallback:@YES];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
