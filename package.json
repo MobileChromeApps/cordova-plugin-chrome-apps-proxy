@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-chrome-apps-proxy",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "This plugin provides the ability to set a proxy for the app.",
   "cordova": {
     "id": "cordova-plugin-chrome-apps-proxy",
