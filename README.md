@@ -25,5 +25,10 @@ The API reference is [here](https://developer.chrome.com/extensions/proxy).
 
 # Release Notes
 
+## 0.1.0 (Jun 7, 2016)
+* Fix proxy for http search for an invalid json obeject
+* Add missing bracket in ChromeProxy.m
+* Adding support for ios
+
 ## 0.0.1
 - First implementation
