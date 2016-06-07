@@ -131,7 +131,7 @@ public class ChromeProxy extends CordovaPlugin {
                         }
                     } else {
                         if (rules.has("proxyForHttp")) {
-                            JSONObject rule = rules.getJSONObject("httpProxy");
+                            JSONObject rule = rules.getJSONObject("proxyForHttp");
                             setHttpProxy(rule, "http", nonProxyHosts);
                         }
                         if (rules.has("proxyForHttps")) {
